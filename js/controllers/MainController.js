@@ -13,8 +13,18 @@ app.controller('MainController', ['$scope', function($scope) {
     price: 8,
     pubdate: new Date('2013', '08', '01'),
     cover: 'img/program-or-be-programmed.jpg'
-  }
+  },
+	{
+		name: 'Eloquent Javascript',
+		price: 30,
+		pubdate: new Date('2015'),
+		cover: 'img/javscript.jpg'
+	},
+	{
+		name: 'Practical Vim',
+		price: 20,
+		pubdate: new Date('2014'),
+		cover: 'img/vim.jpg'
+	}
 ]
 }]);
-
-
