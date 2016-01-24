@@ -24,10 +24,11 @@
           <div class="thumbnail">
             <img src="img/the-book-of-trees.jpg">
             <p class="title">
-            {{ product.name }} </p>
+            {{ product.name | uppercase }} </p>
             <p class="price">
-            {{ product.price }} </p>
-            <p class="date"> </p>
+            {{ product.price | currency }} </p>
+            <p class="date">
+            {{ product.pubdate | date }} </p>
           </div>
         </div>
 
@@ -50,4 +51,5 @@
     <script src="js/controllers/MainController.js"></script>
   </body>
 </html>
+
 
