@@ -3,5 +3,3 @@ app.controller('MainController', ['$scope', 'forecast', function($scope, forecas
     $scope.fiveDay = data;
   });
 }]);
-
-
