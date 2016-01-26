@@ -27,7 +27,7 @@
 
                 <!-- icon -->
                 <div class="weather col-xs-3">
-                  <img ng-repeat="{{ day.icon }}">
+                  <img ng-src="{{ day.icon }}"></img>
 
                 </div>
 
@@ -36,13 +36,14 @@
 
                 <!-- high -->
                 <div class="high col-xs-2">
-
+                  <img ng-src="{{ day.high }}"></img>
 
                 </div>
 
 
                 <!-- low -->
                 <div class="low col-xs-2">
+                  <img ng-src="{{ day.low }}"></img>
 
                 </div>
               </div>
